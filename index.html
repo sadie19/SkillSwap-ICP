@@ -1,0 +1,2747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSwapICP | Connect Students & Startups</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fecaca 0%, #fee2e2 50%, #fca5a5 100%);
+        }
+        .opportunity-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link:hover {
+            color: #ef4444;
+        }
+        .tab-active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .skill-tag:hover {
+            background-color: #fee2e2;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-exchange-alt text-red-500 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-red-600">SkillSwapICP</span>
+                    </div>
+                    <div class="hidden md:ml-6 md:flex md:space-x-8">
+                        <a href="#" class="nav-link text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-red-500 text-sm font-medium tab-active">Home</a>
+                        <a href="#explore" class="nav-link text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-gray-300 text-sm font-medium">Explore</a>
+                        <a href="#post" class="nav-link text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-gray-300 text-sm font-medium">Post</a>
+                        <a href="#mygigs" class="nav-link text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-gray-300 text-sm font-medium">My Gigs</a>
+                        <a href="#contact" class="nav-link text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-gray-300 text-sm font-medium">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center">
+                    <div class="ml-4 flex items-center md:ml-6">
+                        <button class="p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none">
+                            <i class="fas fa-bell h-6 w-6"></i>
+                        </button>
+                        <div class="ml-3 relative">
+                            <div>
+                                <button class="max-w-xs flex items-center text-sm rounded-full focus:outline-none">
+                                    <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars h-6 w-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="gradient-bg">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <div class="text-center lg:text-left">
+                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                    <span class="block">Connect, Collaborate,</span>
+                    <span class="block text-red-600">Grow Together</span>
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-lg text-gray-700 sm:text-xl md:mt-5 md:max-w-3xl">
+                    SkillSwapICP bridges the gap between talented students and innovative startups. Find your perfect match today!
+                </p>
+                <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+                    <div class="rounded-md shadow">
+                        <a href="#explore" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10">
+                            Explore Opportunities
+                        </a>
+                    </div>
+                    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                            Post an Opportunity
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 lg:mt-0 lg:ml-8 hidden lg:block">
+                <img class="w-full max-w-md rounded-lg shadow-xl" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Students collaborating">
+            </div>
+        </div>
+    </div>
+
+    <!-- Search and Filter Section -->
+    <div id="explore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                            <i class="fas fa-search text-gray-400"></i>
+                        </div>
+                        <input type="text" class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm" placeholder="Search opportunities...">
+                    </div>
+                </div>
+                <div class="flex space-x-2 overflow-x-auto pb-2 md:pb-0">
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">All</button>
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">Internships</button>
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">Part-time</button>
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">Volunteer</button>
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">Remote</button>
+                    <button class="px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">On-site</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Opportunities Feed -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-bold text-gray-900">Latest Opportunities</h2>
+            <div class="flex items-center">
+                <span class="text-sm text-gray-500 mr-2">Sort by:</span>
+                <select class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm rounded-md">
+                    <option>Newest</option>
+                    <option>Deadline</option>
+                    <option>Most Applied</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Opportunity Card 1 -->
+            <div class="opportunity-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300 ease-in-out">
+                <div class="p-6">
+                    <div class="flex items-center justify-between">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-100 text-red-800">Internship</span>
+                        <span class="text-sm text-gray-500">Posted 2 days ago</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-gray-900">Frontend Developer Intern</h3>
+                        <p class="mt-1 text-sm text-gray-500">TechStart Inc. • San Francisco, CA (Remote)</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">React</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">JavaScript</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">CSS</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <span class="text-sm font-medium text-gray-900">$1,500 - $2,000</span>
+                            <span class="block text-sm text-gray-500">3 months</span>
+                        </div>
+                        <button class="px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Opportunity Card 2 -->
+            <div class="opportunity-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300 ease-in-out">
+                <div class="p-6">
+                    <div class="flex items-center justify-between">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800">Volunteer</span>
+                        <span class="text-sm text-gray-500">Posted 1 week ago</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-gray-900">Community Outreach Coordinator</h3>
+                        <p class="mt-1 text-sm text-gray-500">GreenEarth Foundation • New York, NY</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">Communication</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">Event Planning</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">Social Media</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <span class="text-sm font-medium text-gray-900">Unpaid</span>
+                            <span class="block text-sm text-gray-500">6 months</span>
+                        </div>
+                        <button class="px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Opportunity Card 3 -->
+            <div class="opportunity-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300 ease-in-out">
+                <div class="p-6">
+                    <div class="flex items-center justify-between">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">Part-time</span>
+                        <span class="text-sm text-gray-500">Posted 3 days ago</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-gray-900">Graphic Designer</h3>
+                        <p class="mt-1 text-sm text-gray-500">CreativeMinds Agency • Remote</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">Photoshop</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">Illustrator</span>
+                            <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">UI/UX</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-center justify-between">
+                        <div>
+                            <span class="text-sm font-medium text-gray-900">$25 - $35/hr</span>
+                            <span class="block text-sm text-gray-500">10-15 hrs/week</span>
+                        </div>
+                        <button class="px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 flex justify-center">
+            <button class="px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                Load More Opportunities
+            </button>
+        </div>
+    </div>
+
+   
+    <script>
+        // In a real implementation, this would fetch opportunities from your Node.js backend
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Home page loaded - would fetch opportunities from backend here');
+            
+            // Example of how you might handle applying to opportunities
+            const applyButtons = document.querySelectorAll('.opportunity-card button');
+            applyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const opportunityTitle = this.closest('.opportunity-card').querySelector('h3').textContent;
+                    alert(`Applying to: ${opportunityTitle}\n(In a real implementation, this would send an application to the backend)`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Opportunities | SkillSwapICP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fecaca 0%, #fee2e2 50%, #fca5a5 100%);
+        }
+        .opportunity-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link:hover {
+            color: #ef4444;
+        }
+        .tab-active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .skill-tag:hover {
+            background-color: #fee2e2;
+        }
+        .filter-active {
+            background-color: #ef4444;
+            color: white;
+        }
+        .saved {
+            color: #ef4444;
+        }
+        .loading-spinner {
+            border-top-color: #ef4444;
+            animation: spinner 1s linear infinite;
+        }
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Search and Filter Section -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h1 class="text-2xl font-bold text-gray-900 mb-6">Find Your Perfect Opportunity</h1>
+            
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div class="w-full md:w-1/2">
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                            <i class="fas fa-search text-gray-400"></i>
+                        </div>
+                        <input id="searchInput" type="text" class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 sm:text-sm" placeholder="Search by title, company, or skills...">
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                    <button id="filterToggle" class="flex items-center gap-1 px-3 py-1.5 rounded-md text-sm font-medium bg-gray-100 text-gray-800 hover:bg-gray-200">
+                        <i class="fas fa-sliders-h"></i>
+                        <span>Filters</span>
+                    </button>
+                    <button id="saveSearchBtn" class="flex items-center gap-1 px-3 py-1.5 rounded-md text-sm font-medium bg-gray-100 text-gray-800 hover:bg-gray-200">
+                        <i class="far fa-bell"></i>
+                        <span>Save Search</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Expanded Filters (hidden by default) -->
+            <div id="filterPanel" class="mt-4 hidden">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="text-sm font-medium text-gray-700 mb-2">Opportunity Type</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800 filter-active" data-filter="type" value="all">All</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="type" value="internship">Internship</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="type" value="part-time">Part-time</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="type" value="volunteer">Volunteer</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="type" value="freelance">Freelance</button>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-sm font-medium text-gray-700 mb-2">Location</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800 filter-active" data-filter="location" value="all">All</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="location" value="remote">Remote</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="location" value="on-site">On-site</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="location" value="hybrid">Hybrid</button>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-sm font-medium text-gray-700 mb-2">Compensation</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800 filter-active" data-filter="compensation" value="all">All</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="compensation" value="paid">Paid</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="compensation" value="unpaid">Unpaid</button>
+                            <button class="filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800" data-filter="compensation" value="equity">Equity</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-sm font-medium text-gray-700 mb-2">Skills</h3>
+                    <div class="flex flex-wrap gap-2" id="skillsContainer">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="mt-6 flex justify-between">
+                    <button id="clearFiltersBtn" class="px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                        Clear All Filters
+                    </button>
+                    <button id="applyFiltersBtn" class="px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700">
+                        Apply Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Results Section -->
+        <div class="flex flex-col md:flex-row gap-8">
+            <!-- Sidebar (Filters for mobile) -->
+            <div class="w-full md:w-64 flex-shrink-0">
+                <div class="bg-white p-4 rounded-lg shadow-md sticky top-24">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-medium text-gray-900">Filters</h2>
+                        <button id="mobileClearFilters" class="text-sm text-red-600 hover:text-red-700">Clear all</button>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-700 mb-2">Sort By</h3>
+                            <select id="sortSelect" class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm rounded-md">
+                                <option value="newest">Newest First</option>
+                                <option value="deadline">Closest Deadline</option>
+                                <option value="popular">Most Popular</option>
+                                <option value="salary">Highest Compensation</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-700 mb-2">Opportunity Type</h3>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input id="filter-internship" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-internship" class="ml-2 text-sm text-gray-700">Internship</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-parttime" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-parttime" class="ml-2 text-sm text-gray-700">Part-time</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-volunteer" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-volunteer" class="ml-2 text-sm text-gray-700">Volunteer</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-freelance" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-freelance" class="ml-2 text-sm text-gray-700">Freelance</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-700 mb-2">Location</h3>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input id="filter-remote" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-remote" class="ml-2 text-sm text-gray-700">Remote</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-onsite" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-onsite" class="ml-2 text-sm text-gray-700">On-site</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-hybrid" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-hybrid" class="ml-2 text-sm text-gray-700">Hybrid</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-700 mb-2">Compensation</h3>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input id="filter-paid" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-paid" class="ml-2 text-sm text-gray-700">Paid</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-unpaid" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-unpaid" class="ml-2 text-sm text-gray-700">Unpaid</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="filter-equity" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded" checked>
+                                    <label for="filter-equity" class="ml-2 text-sm text-gray-700">Equity</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Results -->
+            <div class="flex-1">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-xl font-bold text-gray-900">
+                        <span id="resultsCount">24</span> Opportunities Found
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <button id="listViewBtn" class="p-2 rounded-md bg-gray-100 text-gray-700">
+                            <i class="fas fa-list"></i>
+                        </button>
+                        <button id="gridViewBtn" class="p-2 rounded-md bg-red-100 text-red-600">
+                            <i class="fas fa-th-large"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Loading State -->
+                <div id="loadingSpinner" class="hidden flex justify-center items-center py-12">
+                    <div class="w-12 h-12 border-4 border-gray-300 rounded-full loading-spinner"></div>
+                </div>
+                
+                <!-- Opportunities Grid -->
+                <div id="opportunitiesGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Opportunity cards will be populated by JavaScript -->
+                </div>
+                
+                <!-- Pagination -->
+                <div class="mt-8 flex justify-center">
+                    <nav class="inline-flex rounded-md shadow">
+                        <button id="prevPage" class="px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 rounded-l-md hover:bg-gray-50">
+                            Previous
+                        </button>
+                        <div class="flex">
+                            <button class="page-btn px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-red-600 hover:bg-gray-50" data-page="1">1</button>
+                            <button class="page-btn px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50" data-page="2">2</button>
+                            <button class="page-btn px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50" data-page="3">3</button>
+                            <span class="px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-gray-700">...</span>
+                            <button class="page-btn px-4 py-2 border-t border-b border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50" data-page="5">5</button>
+                        </div>
+                        <button id="nextPage" class="px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 rounded-r-md hover:bg-gray-50">
+                            Next
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Modal for Save Search -->
+    <div id="saveSearchModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                            <i class="fas fa-bell text-red-600"></i>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Save this search</h3>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-500">Get notified when new opportunities match your search criteria.</p>
+                                <div class="mt-4">
+                                    <label for="searchName" class="block text-sm font-medium text-gray-700">Search Name</label>
+                                    <input type="text" id="searchName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm" placeholder="e.g. Remote Frontend Internships">
+                                </div>
+                                <div class="mt-4">
+                                    <label class="block text-sm font-medium text-gray-700">Notification Frequency</label>
+                                    <div class="mt-2 space-y-2">
+                                        <div class="flex items-center">
+                                            <input id="frequency-daily" name="notification-frequency" type="radio" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300" checked>
+                                            <label for="frequency-daily" class="ml-2 block text-sm text-gray-700">Daily</label>
+                                        </div>
+                                        <div class="flex items-center">
+                                            <input id="frequency-weekly" name="notification-frequency" type="radio" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300">
+                                            <label for="frequency-weekly" class="ml-2 block text-sm text-gray-700">Weekly</label>
+                                        </div>
+                                        <div class="flex items-center">
+                                            <input id="frequency-instant" name="notification-frequency" type="radio" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300">
+                                            <label for="frequency-instant" class="ml-2 block text-sm text-gray-700">Instant</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="confirmSaveSearch" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        Save Search
+                    </button>
+                    <button type="button" id="cancelSaveSearch" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for opportunities
+        const opportunities = [
+            {
+                id: 1,
+                title: "Frontend Developer Intern",
+                company: "TechStart Inc.",
+                location: "San Francisco, CA (Remote)",
+                type: "internship",
+                compensation: "$1,500 - $2,000",
+                duration: "3 months",
+                deadline: "2023-12-15",
+                skills: ["React", "JavaScript", "CSS", "HTML"],
+                description: "Join our frontend team to build beautiful user interfaces for our SaaS platform. You'll work with React, TypeScript, and modern CSS frameworks.",
+                isRemote: true,
+                isPaid: true,
+                isSaved: false,
+                applications: 24
+            },
+            {
+                id: 2,
+                title: "Community Outreach Coordinator",
+                company: "GreenEarth Foundation",
+                location: "New York, NY",
+                type: "volunteer",
+                compensation: "Unpaid",
+                duration: "6 months",
+                deadline: "2023-11-30",
+                skills: ["Communication", "Event Planning", "Social Media"],
+                description: "Help organize community events and outreach programs to promote environmental awareness and sustainability initiatives.",
+                isRemote: false,
+                isPaid: false,
+                isSaved: true,
+                applications: 12
+            },
+            {
+                id: 3,
+                title: "Graphic Designer",
+                company: "CreativeMinds Agency",
+                location: "Remote",
+                type: "part-time",
+                compensation: "$25 - $35/hr",
+                duration: "10-15 hrs/week",
+                deadline: "2023-12-10",
+                skills: ["Photoshop", "Illustrator", "UI/UX", "Figma"],
+                description: "Create stunning visual designs for our clients across various industries. Must have strong portfolio showcasing your design skills.",
+                isRemote: true,
+                isPaid: true,
+                isSaved: false,
+                applications: 18
+            },
+            {
+                id: 4,
+                title: "Backend Engineer",
+                company: "DataSystems LLC",
+                location: "Austin, TX (Hybrid)",
+                type: "internship",
+                compensation: "$2,000 - $2,500",
+                duration: "4 months",
+                deadline: "2023-12-05",
+                skills: ["Node.js", "Python", "SQL", "AWS"],
+                description: "Develop and maintain our backend services and APIs. Experience with cloud platforms and database design preferred.",
+                isRemote: false,
+                isPaid: true,
+                isSaved: false,
+                applications: 15
+            },
+            {
+                id: 5,
+                title: "Marketing Intern",
+                company: "GrowthHackers",
+                location: "Remote",
+                type: "internship",
+                compensation: "$1,200 - $1,500",
+                duration: "3 months",
+                deadline: "2023-12-20",
+                skills: ["Digital Marketing", "SEO", "Content Creation", "Social Media"],
+                description: "Assist our marketing team with campaigns, content creation, and social media management. Great opportunity to learn growth marketing.",
+                isRemote: true,
+                isPaid: true,
+                isSaved: false,
+                applications: 22
+            },
+            {
+                id: 6,
+                title: "UX Researcher",
+                company: "UserFirst",
+                location: "Chicago, IL",
+                type: "part-time",
+                compensation: "$30 - $45/hr",
+                duration: "15-20 hrs/week",
+                deadline: "2023-12-01",
+                skills: ["User Research", "Usability Testing", "Figma", "Analytics"],
+                description: "Conduct user research and usability studies to help improve our products. Must have experience with research methodologies and tools.",
+                isRemote: false,
+                isPaid: true,
+                isSaved: true,
+                applications: 8
+            }
+        ];
+
+        // Sample skills for filter
+        const skills = [
+            "React", "JavaScript", "CSS", "HTML", "Node.js", "Python", "SQL", "AWS",
+            "Photoshop", "Illustrator", "UI/UX", "Figma", "Communication", "Event Planning",
+            "Social Media", "Digital Marketing", "SEO", "Content Creation", "User Research",
+            "Usability Testing", "Analytics", "TypeScript", "Java", "PHP", "Docker", "Kubernetes"
+        ];
+
+        // DOM Elements
+        const opportunitiesGrid = document.getElementById('opportunitiesGrid');
+        const skillsContainer = document.getElementById('skillsContainer');
+        const filterPanel = document.getElementById('filterPanel');
+        const filterToggle = document.getElementById('filterToggle');
+        const applyFiltersBtn = document.getElementById('applyFiltersBtn');
+        const clearFiltersBtn = document.getElementById('clearFiltersBtn');
+        const searchInput = document.getElementById('searchInput');
+        const resultsCount = document.getElementById('resultsCount');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+        const saveSearchBtn = document.getElementById('saveSearchBtn');
+        const saveSearchModal = document.getElementById('saveSearchModal');
+        const confirmSaveSearch = document.getElementById('confirmSaveSearch');
+        const cancelSaveSearch = document.getElementById('cancelSaveSearch');
+        const listViewBtn = document.getElementById('listViewBtn');
+        const gridViewBtn = document.getElementById('gridViewBtn');
+        const sortSelect = document.getElementById('sortSelect');
+        const prevPage = document.getElementById('prevPage');
+        const nextPage = document.getElementById('nextPage');
+        const pageBtns = document.querySelectorAll('.page-btn');
+
+        // Current filters state
+        let currentFilters = {
+            type: 'all',
+            location: 'all',
+            compensation: 'all',
+            skills: [],
+            searchQuery: '',
+            sortBy: 'newest',
+            viewMode: 'grid'
+        };
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Populate skills filter
+            populateSkillsFilter();
+            
+            // Render initial opportunities
+            renderOpportunities(opportunities);
+            
+            // Set up event listeners
+            setupEventListeners();
+        });
+
+        // Populate skills filter
+        function populateSkillsFilter() {
+            skills.forEach(skill => {
+                const skillElement = document.createElement('button');
+                skillElement.className = 'skill-filter-btn px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800';
+                skillElement.textContent = skill;
+                skillElement.dataset.skill = skill.toLowerCase();
+                skillsContainer.appendChild(skillElement);
+            });
+        }
+
+        // Render opportunities based on filters
+        function renderOpportunities(data) {
+            // Show loading spinner
+            loadingSpinner.classList.remove('hidden');
+            opportunitiesGrid.innerHTML = '';
+            
+            // Simulate API delay
+            setTimeout(() => {
+                // Filter data based on current filters
+                let filteredData = [...data];
+                
+                // Apply search query filter
+                if (currentFilters.searchQuery) {
+                    const query = currentFilters.searchQuery.toLowerCase();
+                    filteredData = filteredData.filter(opp => 
+                        opp.title.toLowerCase().includes(query) || 
+                        opp.company.toLowerCase().includes(query) ||
+                        opp.skills.some(skill => skill.toLowerCase().includes(query)) ||
+                        opp.description.toLowerCase().includes(query)
+                    );
+                }
+                
+                // Apply type filter
+                if (currentFilters.type !== 'all') {
+                    filteredData = filteredData.filter(opp => 
+                        opp.type === currentFilters.type
+                    );
+                }
+                
+                // Apply location filter
+                if (currentFilters.location !== 'all') {
+                    if (currentFilters.location === 'remote') {
+                        filteredData = filteredData.filter(opp => opp.isRemote);
+                    } else if (currentFilters.location === 'on-site') {
+                        filteredData = filteredData.filter(opp => !opp.isRemote);
+                    } else if (currentFilters.location === 'hybrid') {
+                        filteredData = filteredData.filter(opp => opp.location.toLowerCase().includes('hybrid'));
+                    }
+                }
+                
+                // Apply compensation filter
+                if (currentFilters.compensation !== 'all') {
+                    if (currentFilters.compensation === 'paid') {
+                        filteredData = filteredData.filter(opp => opp.isPaid);
+                    } else if (currentFilters.compensation === 'unpaid') {
+                        filteredData = filteredData.filter(opp => !opp.isPaid);
+                    } else if (currentFilters.compensation === 'equity') {
+                        filteredData = filteredData.filter(opp => opp.compensation.toLowerCase().includes('equity'));
+                    }
+                }
+                
+                // Apply skills filter
+                if (currentFilters.skills.length > 0) {
+                    filteredData = filteredData.filter(opp => 
+                        currentFilters.skills.every(skill => 
+                            opp.skills.some(oppSkill => 
+                                oppSkill.toLowerCase().includes(skill.toLowerCase())
+                            )
+                        )
+                    );
+                }
+                
+                // Sort data
+                if (currentFilters.sortBy === 'newest') {
+                    filteredData.sort((a, b) => new Date(b.deadline) - new Date(a.deadline));
+                } else if (currentFilters.sortBy === 'deadline') {
+                    filteredData.sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+                } else if (currentFilters.sortBy === 'popular') {
+                    filteredData.sort((a, b) => b.applications - a.applications);
+                } else if (currentFilters.sortBy === 'salary') {
+                    filteredData.sort((a, b) => {
+                        const getSalaryValue = (opp) => {
+                            if (!opp.isPaid) return 0;
+                            const match = opp.compensation.match(/\$([\d,]+)/);
+                            return match ? parseInt(match[1].replace(/,/g, '')) : 0;
+                        };
+                        return getSalaryValue(b) - getSalaryValue(a);
+                    });
+                }
+                
+                // Update results count
+                resultsCount.textContent = filteredData.length;
+                
+                // Render opportunities
+                filteredData.forEach(opportunity => {
+                    const opportunityCard = createOpportunityCard(opportunity);
+                    opportunitiesGrid.appendChild(opportunityCard);
+                });
+                
+                // Hide loading spinner
+                loadingSpinner.classList.add('hidden');
+            }, 800);
+        }
+
+        // Create opportunity card element
+        function createOpportunityCard(opportunity) {
+            const card = document.createElement('div');
+            card.className = `opportunity-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300 ease-in-out ${currentFilters.viewMode === 'list' ? 'flex' : ''}`;
+            
+            // Determine badge color based on type
+            let badgeColor = 'gray';
+            let badgeTextColor = 'gray';
+            if (opportunity.type === 'internship') {
+                badgeColor = 'red';
+                badgeTextColor = 'red';
+            } else if (opportunity.type === 'part-time') {
+                badgeColor = 'green';
+                badgeTextColor = 'green';
+            } else if (opportunity.type === 'volunteer') {
+                badgeColor = 'blue';
+                badgeTextColor = 'blue';
+            } else if (opportunity.type === 'freelance') {
+                badgeColor = 'purple';
+                badgeTextColor = 'purple';
+            }
+            
+            // Format deadline
+            const deadlineDate = new Date(opportunity.deadline);
+            const formattedDeadline = deadlineDate.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric', 
+                year: 'numeric' 
+            });
+            
+            // Calculate days remaining
+            const today = new Date();
+            const timeDiff = deadlineDate.getTime() - today.getTime();
+            const daysRemaining = Math.ceil(timeDiff / (1000 * 3600 * 24));
+            let deadlineText = `Closes ${formattedDeadline}`;
+            
+            if (daysRemaining < 0) {
+                deadlineText = `Closed ${Math.abs(daysRemaining)} days ago`;
+            } else if (daysRemaining === 0) {
+                deadlineText = `Closes today`;
+            } else if (daysRemaining === 1) {
+                deadlineText = `Closes tomorrow`;
+            } else if (daysRemaining <= 7) {
+                deadlineText = `Closes in ${daysRemaining} days`;
+            }
+            
+            // List view layout
+            if (currentFilters.viewMode === 'list') {
+                card.innerHTML = `
+                    <div class="flex-shrink-0 ${currentFilters.viewMode === 'list' ? 'w-1/4' : ''}">
+                        <img class="w-full h-full object-cover" src="https://source.unsplash.com/random/300x200/?${opportunity.type}" alt="${opportunity.company}">
+                    </div>
+                    <div class="p-6 flex-1">
+                        <div class="flex items-center justify-between">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-${badgeColor}-100 text-${badgeTextColor}-800 capitalize">
+                                ${opportunity.type}
+                            </span>
+                            <div class="flex items-center">
+                                <span class="text-sm text-gray-500 mr-3">${deadlineText}</span>
+                                <button class="save-btn p-1 rounded-full text-gray-400 hover:text-red-500 focus:outline-none ${opportunity.isSaved ? 'saved' : ''}">
+                                    <i class="${opportunity.isSaved ? 'fas' : 'far'} fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">${opportunity.title}</h3>
+                            <p class="mt-1 text-sm text-gray-500">${opportunity.company} • ${opportunity.location}</p>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">${opportunity.description}</p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="flex flex-wrap gap-2">
+                                ${opportunity.skills.map(skill => `
+                                    <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">${skill}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        <div class="mt-6 flex items-center justify-between">
+                            <div>
+                                <span class="text-sm font-medium text-gray-900">${opportunity.compensation}</span>
+                                <span class="block text-sm text-gray-500">${opportunity.duration}</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm text-gray-500">${opportunity.applications} applicants</span>
+                                <button class="apply-btn px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none">
+                                    Apply Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } 
+            // Grid view layout
+            else {
+                card.innerHTML = `
+                    <div class="p-6">
+                        <div class="flex items-center justify-between">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-${badgeColor}-100 text-${badgeTextColor}-800 capitalize">
+                                ${opportunity.type}
+                            </span>
+                            <div class="flex items-center">
+                                <span class="text-sm text-gray-500 mr-3">${deadlineText}</span>
+                                <button class="save-btn p-1 rounded-full text-gray-400 hover:text-red-500 focus:outline-none ${opportunity.isSaved ? 'saved' : ''}">
+                                    <i class="${opportunity.isSaved ? 'fas' : 'far'} fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-medium text-gray-900">${opportunity.title}</h3>
+                            <p class="mt-1 text-sm text-gray-500">${opportunity.company} • ${opportunity.location}</p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="flex flex-wrap gap-2">
+                                ${opportunity.skills.map(skill => `
+                                    <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 cursor-pointer">${skill}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        <div class="mt-6 flex items-center justify-between">
+                            <div>
+                                <span class="text-sm font-medium text-gray-900">${opportunity.compensation}</span>
+                                <span class="block text-sm text-gray-500">${opportunity.duration}</span>
+                            </div>
+                            <button class="apply-btn px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none">
+                                Apply Now
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            return card;
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Toggle filter panel
+            filterToggle.addEventListener('click', () => {
+                filterPanel.classList.toggle('hidden');
+            });
+            
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filterType = this.dataset.filter;
+                    const value = this.value;
+                    
+                    // Remove active class from all buttons in this filter group
+                    document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => {
+                        b.classList.remove('filter-active');
+                    });
+                    
+                    // Add active class to clicked button
+                    this.classList.add('filter-active');
+                    
+                    // Update current filters
+                    currentFilters[filterType] = value;
+                });
+            });
+            
+            // Skill filter buttons
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('skill-filter-btn')) {
+                    const skill = e.target.dataset.skill;
+                    
+                    // Toggle skill in filters
+                    const index = currentFilters.skills.indexOf(skill);
+                    if (index === -1) {
+                        currentFilters.skills.push(skill);
+                        e.target.classList.add('filter-active');
+                    } else {
+                        currentFilters.skills.splice(index, 1);
+                        e.target.classList.remove('filter-active');
+                    }
+                }
+            });
+            
+            // Apply filters
+            applyFiltersBtn.addEventListener('click', () => {
+                filterPanel.classList.add('hidden');
+                renderOpportunities(opportunities);
+            });
+            
+            // Clear filters
+            clearFiltersBtn.addEventListener('click', () => {
+                // Reset all filters
+                currentFilters = {
+                    type: 'all',
+                    location: 'all',
+                    compensation: 'all',
+                    skills: [],
+                    searchQuery: searchInput.value,
+                    sortBy: currentFilters.sortBy,
+                    viewMode: currentFilters.viewMode
+                };
+                
+                // Reset UI
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('filter-active');
+                    if (btn.value === 'all') {
+                        btn.classList.add('filter-active');
+                    }
+                });
+                
+                document.querySelectorAll('.skill-filter-btn').forEach(btn => {
+                    btn.classList.remove('filter-active');
+                });
+                
+                filterPanel.classList.add('hidden');
+                renderOpportunities(opportunities);
+            });
+            
+            // Search input
+            searchInput.addEventListener('input', (e) => {
+                currentFilters.searchQuery = e.target.value;
+                renderOpportunities(opportunities);
+            });
+            
+            // Save search button
+            saveSearchBtn.addEventListener('click', () => {
+                saveSearchModal.classList.remove('hidden');
+            });
+            
+            // Confirm save search
+            confirmSaveSearch.addEventListener('click', () => {
+                const searchName = document.getElementById('searchName').value;
+                const frequency = document.querySelector('input[name="notification-frequency"]:checked').value;
+                
+                // In a real app, this would save to the backend
+                alert(`Search saved as "${searchName}" with ${frequency} notifications`);
+                
+                saveSearchModal.classList.add('hidden');
+                document.getElementById('searchName').value = '';
+            });
+            
+            // Cancel save search
+            cancelSaveSearch.addEventListener('click', () => {
+                saveSearchModal.classList.add('hidden');
+                document.getElementById('searchName').value = '';
+            });
+            
+            // View mode toggle
+            listViewBtn.addEventListener('click', () => {
+                currentFilters.viewMode = 'list';
+                listViewBtn.classList.remove('bg-gray-100', 'text-gray-700');
+                listViewBtn.classList.add('bg-red-100', 'text-red-600');
+                gridViewBtn.classList.remove('bg-red-100', 'text-red-600');
+                gridViewBtn.classList.add('bg-gray-100', 'text-gray-700');
+                renderOpportunities(opportunities);
+            });
+            
+            gridViewBtn.addEventListener('click', () => {
+                currentFilters.viewMode = 'grid';
+                gridViewBtn.classList.remove('bg-gray-100', 'text-gray-700');
+                gridViewBtn.classList.add('bg-red-100', 'text-red-600');
+                listViewBtn.classList.remove('bg-red-100', 'text-red-600');
+                listViewBtn.classList.add('bg-gray-100', 'text-gray-700');
+                renderOpportunities(opportunities);
+            });
+            
+            // Sort select
+            sortSelect.addEventListener('change', (e) => {
+                currentFilters.sortBy = e.target.value;
+                renderOpportunities(opportunities);
+            });
+            
+            // Pagination
+            prevPage.addEventListener('click', () => {
+                // In a real app, this would fetch previous page from backend
+                alert('Fetching previous page of results');
+            });
+            
+            nextPage.addEventListener('click', () => {
+                // In a real app, this would fetch next page from backend
+                alert('Fetching next page of results');
+            });
+            
+            pageBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // In a real app, this would fetch specific page from backend
+                    alert(`Fetching page ${btn.dataset.page} of results`);
+                });
+            });
+            
+            // Event delegation for dynamic elements
+            opportunitiesGrid.addEventListener('click', (e) => {
+                // Save button
+                if (e.target.closest('.save-btn') || e.target.classList.contains('save-btn')) {
+                    const btn = e.target.classList.contains('save-btn') ? e.target : e.target.closest('.save-btn');
+                    const icon = btn.querySelector('i');
+                    
+                    // Toggle saved state
+                    if (icon.classList.contains('far')) {
+                        icon.classList.remove('far');
+                        icon.classList.add('fas');
+                        btn.classList.add('saved');
+                        alert('Opportunity saved to your favorites');
+                    } else {
+                        icon.classList.remove('fas');
+                        icon.classList.add('far');
+                        btn.classList.remove('saved');
+                        alert('Opportunity removed from your favorites');
+                    }
+                }
+                
+                // Apply button
+                if (e.target.closest('.apply-btn') || e.target.classList.contains('apply-btn')) {
+                    const card = e.target.closest('.opportunity-card');
+                    const title = card.querySelector('h3').textContent;
+                    alert(`Applying to: ${title}\n(In a real implementation, this would open an application form)`);
+                }
+                
+                // Skill tag click
+                if (e.target.classList.contains('skill-tag')) {
+                    const skill = e.target.textContent.toLowerCase();
+                    
+                    // Add to skills filter if not already present
+                    if (!currentFilters.skills.includes(skill)) {
+                        currentFilters.skills.push(skill);
+                        
+                        // Highlight corresponding skill filter button
+                        const skillBtns = document.querySelectorAll('.skill-filter-btn');
+                        skillBtns.forEach(btn => {
+                            if (btn.dataset.skill === skill) {
+                                btn.classList.add('filter-active');
+                            }
+                        });
+                        
+                        renderOpportunities(opportunities);
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Opportunity | SkillSwapICP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fecaca 0%, #fee2e2 50%, #fca5a5 100%);
+        }
+        .nav-link:hover {
+            color: #ef4444;
+        }
+        .tab-active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .skill-tag {
+            transition: all 0.2s ease;
+        }
+        .skill-tag:hover {
+            background-color: #fee2e2;
+        }
+        .remove-skill:hover {
+            color: #ef4444;
+        }
+        .loading-spinner {
+            border-top-color: #ef4444;
+            animation: spinner 1s linear infinite;
+        }
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+        .editor-toolbar {
+            border: 1px solid #e5e7eb;
+            border-radius: 0.375rem 0.375rem 0 0;
+            background-color: #f9fafb;
+        }
+        .editor-content {
+            border: 1px solid #e5e7eb;
+            border-top: none;
+            border-radius: 0 0 0.375rem 0.375rem;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Main Content -->
+    <div id="post" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="border-b border-gray-200 pb-4 mb-6">
+                <h1 class="text-2xl font-bold text-gray-900">Post a New Opportunity</h1>
+                <p class="mt-1 text-sm text-gray-500">Fill out the form below to create your opportunity listing.</p>
+            </div>
+            
+            <!-- Form -->
+            <form id="postForm" class="space-y-6">
+                <!-- Basic Information Section -->
+                <div>
+                    <h2 class="text-lg font-medium text-gray-900 mb-4">Basic Information</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Opportunity Title -->
+                        <div>
+                            <label for="title" class="block text-sm font-medium text-gray-700">Opportunity Title *</label>
+                            <div class="mt-1">
+                                <input type="text" id="title" name="title" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="e.g. Frontend Developer Intern">
+                            </div>
+                        </div>
+                        
+                        <!-- Company/Organization Name -->
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-700">Company/Organization *</label>
+                            <div class="mt-1">
+                                <input type="text" id="company" name="company" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Your company name">
+                            </div>
+                        </div>
+                        
+                        <!-- Opportunity Type -->
+                        <div>
+                            <label for="type" class="block text-sm font-medium text-gray-700">Opportunity Type *</label>
+                            <div class="mt-1">
+                                <select id="type" name="type" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm">
+                                    <option value="">Select type</option>
+                                    <option value="internship">Internship</option>
+                                    <option value="part-time">Part-time</option>
+                                    <option value="full-time">Full-time</option>
+                                    <option value="volunteer">Volunteer</option>
+                                    <option value="freelance">Freelance</option>
+                                    <option value="contract">Contract</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Location -->
+                        <div>
+                            <label for="location" class="block text-sm font-medium text-gray-700">Location *</label>
+                            <div class="mt-1">
+                                <input type="text" id="location" name="location" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="e.g. Remote, New York, NY, etc.">
+                            </div>
+                        </div>
+                        
+                        <!-- Work Arrangement -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Work Arrangement *</label>
+                            <div class="mt-1 space-y-2">
+                                <div class="flex items-center">
+                                    <input id="remote" name="work_arrangement" type="radio" value="remote" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300">
+                                    <label for="remote" class="ml-2 block text-sm text-gray-700">Remote</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="onsite" name="work_arrangement" type="radio" value="on-site" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300">
+                                    <label for="onsite" class="ml-2 block text-sm text-gray-700">On-site</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="hybrid" name="work_arrangement" type="radio" value="hybrid" class="focus:ring-red-500 h-4 w-4 text-red-600 border-gray-300">
+                                    <label for="hybrid" class="ml-2 block text-sm text-gray-700">Hybrid</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Compensation -->
+                        <div>
+                            <label for="compensation" class="block text-sm font-medium text-gray-700">Compensation *</label>
+                            <div class="mt-1">
+                                <input type="text" id="compensation" name="compensation" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="e.g. $20/hr, $50,000/year, Unpaid, Equity, etc.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Details Section -->
+                <div>
+                    <h2 class="text-lg font-medium text-gray-900 mb-4">Details</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Duration -->
+                        <div>
+                            <label for="duration" class="block text-sm font-medium text-gray-700">Duration</label>
+                            <div class="mt-1">
+                                <input type="text" id="duration" name="duration" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="e.g. 3 months, 1 year, Ongoing">
+                            </div>
+                        </div>
+                        
+                        <!-- Hours per Week -->
+                        <div>
+                            <label for="hours" class="block text-sm font-medium text-gray-700">Hours per Week</label>
+                            <div class="mt-1">
+                                <input type="text" id="hours" name="hours" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="e.g. 20-30 hours, Flexible">
+                            </div>
+                        </div>
+                        
+                        <!-- Application Deadline -->
+                        <div>
+                            <label for="deadline" class="block text-sm font-medium text-gray-700">Application Deadline *</label>
+                            <div class="mt-1">
+                                <input type="date" id="deadline" name="deadline" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm">
+                            </div>
+                        </div>
+                        
+                        <!-- Start Date -->
+                        <div>
+                            <label for="start_date" class="block text-sm font-medium text-gray-700">Expected Start Date</label>
+                            <div class="mt-1">
+                                <input type="date" id="start_date" name="start_date" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Description Section -->
+                <div>
+                    <h2 class="text-lg font-medium text-gray-900 mb-4">Description</h2>
+                    <div>
+                        <label for="description" class="block text-sm font-medium text-gray-700">Opportunity Description *</label>
+                        <div class="mt-1">
+                            <!-- Simple Rich Text Editor -->
+                            <div class="editor-toolbar p-2 flex flex-wrap gap-1">
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="bold" title="Bold">
+                                    <i class="fas fa-bold"></i>
+                                </button>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="italic" title="Italic">
+                                    <i class="fas fa-italic"></i>
+                                </button>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="underline" title="Underline">
+                                    <i class="fas fa-underline"></i>
+                                </button>
+                                <div class="w-px h-6 bg-gray-300 mx-1"></div>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="insertUnorderedList" title="Bullet List">
+                                    <i class="fas fa-list-ul"></i>
+                                </button>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="insertOrderedList" title="Numbered List">
+                                    <i class="fas fa-list-ol"></i>
+                                </button>
+                                <div class="w-px h-6 bg-gray-300 mx-1"></div>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="createLink" title="Insert Link">
+                                    <i class="fas fa-link"></i>
+                                </button>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="undo" title="Undo">
+                                    <i class="fas fa-undo"></i>
+                                </button>
+                                <button type="button" class="format-btn px-2 py-1 text-sm rounded hover:bg-gray-200" data-command="redo" title="Redo">
+                                    <i class="fas fa-redo"></i>
+                                </button>
+                            </div>
+                            <div id="description" class="editor-content p-4" contenteditable="true"></div>
+                            <input type="hidden" id="description_html" name="description_html">
+                        </div>
+                        <p class="mt-2 text-sm text-gray-500">Describe the opportunity, responsibilities, and requirements.</p>
+                    </div>
+                </div>
+                
+                <!-- Skills Section -->
+                <div>
+                    <h2 class="text-lg font-medium text-gray-900 mb-4">Required Skills</h2>
+                    <div>
+                        <label for="skillsInput" class="block text-sm font-medium text-gray-700">Add Skills</label>
+                        <div class="mt-1 relative">
+                            <input type="text" id="skillsInput" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Type a skill and press Enter">
+                            <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                <span class="text-gray-500 text-xs">Enter to add</span>
+                            </div>
+                        </div>
+                        <div id="skillsContainer" class="mt-2 flex flex-wrap gap-2">
+                            <!-- Skills will be added here -->
+                        </div>
+                        <input type="hidden" id="skills" name="skills">
+                    </div>
+                </div>
+                
+                <!-- Application Section -->
+                <div>
+                    <h2 class="text-lg font-medium text-gray-900 mb-4">Application Process</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Application Method -->
+                        <div>
+                            <label for="application_method" class="block text-sm font-medium text-gray-700">Application Method *</label>
+                            <div class="mt-1">
+                                <select id="application_method" name="application_method" required class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm">
+                                    <option value="">Select method</option>
+                                    <option value="email">Email Application</option>
+                                    <option value="website">Company Website</option>
+                                    <option value="platform">Apply on SkillSwapICP</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!-- Application Link/Email -->
+                        <div id="applicationDetailsContainer">
+                            <label for="application_details" class="block text-sm font-medium text-gray-700">Application Details *</label>
+                            <div class="mt-1">
+                                <input type="text" id="application_details" name="application_details" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Email or URL">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Instructions -->
+                    <div class="mt-4">
+                        <label for="application_instructions" class="block text-sm font-medium text-gray-700">Additional Application Instructions</label>
+                        <div class="mt-1">
+                            <textarea id="application_instructions" name="application_instructions" rows="3" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Any specific instructions for applicants"></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Submit Section -->
+                <div class="pt-6 border-t border-gray-200">
+                    <div class="flex justify-end gap-3">
+                        <button type="button" id="previewBtn" class="px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                            Preview
+                        </button>
+                        <button type="submit" id="submitBtn" class="inline-flex justify-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                            Post Opportunity
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div id="previewModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mt-3 text-center sm:mt-0 sm:text-left w-full">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Opportunity Preview</h3>
+                            <div class="mt-4">
+                                <div id="previewContent" class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                                    <!-- Preview content will be inserted here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="confirmPostBtn" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        Confirm and Post
+                    </button>
+                    <button type="button" id="closePreviewBtn" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Back to Editing
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10">
+                            <i class="fas fa-check text-green-600"></i>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Success!</h3>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-500">Your opportunity has been posted successfully.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="viewOpportunityBtn" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        View Opportunity
+                    </button>
+                    <button type="button" id="postAnotherBtn" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Post Another
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // DOM Elements
+            const postForm = document.getElementById('postForm');
+            const skillsInput = document.getElementById('skillsInput');
+            const skillsContainer = document.getElementById('skillsContainer');
+            const skillsHidden = document.getElementById('skills');
+            const previewBtn = document.getElementById('previewBtn');
+            const submitBtn = document.getElementById('submitBtn');
+            const previewModal = document.getElementById('previewModal');
+            const previewContent = document.getElementById('previewContent');
+            const closePreviewBtn = document.getElementById('closePreviewBtn');
+            const confirmPostBtn = document.getElementById('confirmPostBtn');
+            const successModal = document.getElementById('successModal');
+            const viewOpportunityBtn = document.getElementById('viewOpportunityBtn');
+            const postAnotherBtn = document.getElementById('postAnotherBtn');
+            const applicationMethod = document.getElementById('application_method');
+            const applicationDetailsContainer = document.getElementById('applicationDetailsContainer');
+            const descriptionEditor = document.getElementById('description');
+            const descriptionHtml = document.getElementById('description_html');
+            const formatBtns = document.querySelectorAll('.format-btn');
+            
+            // Skills Management
+            let skillsList = [];
+            
+            // Add skill when Enter is pressed
+            skillsInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' && this.value.trim() !== '') {
+                    e.preventDefault();
+                    addSkill(this.value.trim());
+                    this.value = '';
+                }
+            });
+            
+            // Add skill function
+            function addSkill(skill) {
+                if (!skillsList.includes(skill)) {
+                    skillsList.push(skill);
+                    updateSkillsDisplay();
+                }
+            }
+            
+            // Remove skill function
+            function removeSkill(skill) {
+                skillsList = skillsList.filter(s => s !== skill);
+                updateSkillsDisplay();
+            }
+            
+            // Update skills display
+            function updateSkillsDisplay() {
+                skillsContainer.innerHTML = '';
+                skillsList.forEach(skill => {
+                    const skillTag = document.createElement('div');
+                    skillTag.className = 'skill-tag inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800';
+                    skillTag.innerHTML = `
+                        ${skill}
+                        <button type="button" class="remove-skill ml-1 text-gray-400 hover:text-gray-600">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    `;
+                    skillsContainer.appendChild(skillTag);
+                    
+                    // Add event listener to remove button
+                    skillTag.querySelector('.remove-skill').addEventListener('click', () => {
+                        removeSkill(skill);
+                    });
+                });
+                
+                // Update hidden input
+                skillsHidden.value = skillsList.join(',');
+            }
+            
+            // Rich Text Editor Functionality
+            formatBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const command = this.dataset.command;
+                    
+                    if (command === 'createLink') {
+                        const url = prompt('Enter the URL:');
+                        if (url) {
+                            document.execCommand(command, false, url);
+                        }
+                    } else {
+                        document.execCommand(command, false, null);
+                    }
+                });
+            });
+            
+            // Update hidden input with HTML content before form submission
+            descriptionEditor.addEventListener('input', function() {
+                descriptionHtml.value = this.innerHTML;
+            });
+            
+            // Application Method Change Handler
+            applicationMethod.addEventListener('change', function() {
+                const label = applicationDetailsContainer.querySelector('label');
+                const input = applicationDetailsContainer.querySelector('input');
+                
+                switch (this.value) {
+                    case 'email':
+                        label.textContent = 'Email Address *';
+                        input.placeholder = 'contact@example.com';
+                        input.type = 'email';
+                        break;
+                    case 'website':
+                        label.textContent = 'Website URL *';
+                        input.placeholder = 'https://example.com/apply';
+                        input.type = 'url';
+                        break;
+                    case 'platform':
+                        label.textContent = 'Application Form';
+                        input.placeholder = 'Application will be on SkillSwapICP';
+                        input.type = 'text';
+                        input.value = 'Apply on SkillSwapICP';
+                        break;
+                    default:
+                        label.textContent = 'Application Details *';
+                        input.placeholder = 'Provide application details';
+                        input.type = 'text';
+                        break;
+                }
+            });
+            
+            // Form Validation
+            postForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Validate required fields
+                const requiredFields = ['title', 'company', 'type', 'location', 'compensation', 'deadline'];
+                let isValid = true;
+                
+                requiredFields.forEach(field => {
+                    const element = document.getElementById(field);
+                    if (!element.value.trim()) {
+                        element.classList.add('border-red-500');
+                        isValid = false;
+                    } else {
+                        element.classList.remove('border-red-500');
+                    }
+                });
+                
+                // Validate work arrangement
+                const workArrangementSelected = document.querySelector('input[name="work_arrangement"]:checked');
+                if (!workArrangementSelected) {
+                    document.getElementById('remote').closest('div').classList.add('border', 'border-red-500', 'p-2', 'rounded');
+                    isValid = false;
+                } else {
+                    document.getElementById('remote').closest('div').classList.remove('border', 'border-red-500', 'p-2', 'rounded');
+                }
+                
+                // Validate description
+                if (descriptionEditor.innerHTML.trim() === '' || descriptionEditor.innerHTML.trim() === '<br>') {
+                    descriptionEditor.classList.add('border-red-500');
+                    isValid = false;
+                } else {
+                    descriptionEditor.classList.remove('border-red-500');
+                }
+                
+                // Validate skills
+                if (skillsList.length === 0) {
+                    skillsInput.classList.add('border-red-500');
+                    isValid = false;
+                } else {
+                    skillsInput.classList.remove('border-red-500');
+                }
+                
+                // Validate application method
+                if (!applicationMethod.value) {
+                    applicationMethod.classList.add('border-red-500');
+                    isValid = false;
+                } else {
+                    applicationMethod.classList.remove('border-red-500');
+                }
+                
+                // Validate application details
+                const applicationDetails = document.getElementById('application_details');
+                if (applicationMethod.value !== 'platform' && !applicationDetails.value.trim()) {
+                    applicationDetails.classList.add('border-red-500');
+                    isValid = false;
+                } else {
+                    applicationDetails.classList.remove('border-red-500');
+                }
+                
+                if (isValid) {
+                    // Show loading state
+                    submitBtn.innerHTML = `
+                        <i class="fas fa-spinner fa-spin mr-2"></i>
+                        Posting...
+                    `;
+                    submitBtn.disabled = true;
+                    
+                    // Simulate API call
+                    setTimeout(() => {
+                        // Reset form if not from preview
+                        if (!previewModal.classList.contains('hidden')) {
+                            showSuccessModal();
+                        } else {
+                            showPreviewModal();
+                        }
+                        
+                        submitBtn.innerHTML = 'Post Opportunity';
+                        submitBtn.disabled = false;
+                    }, 1500);
+                }
+            });
+            
+            // Preview Button Handler
+            previewBtn.addEventListener('click', function() {
+                // Validate form first
+                const event = new Event('submit');
+                postForm.dispatchEvent(event);
+            });
+            
+            // Show Preview Modal
+            function showPreviewModal() {
+                // Get form values
+                const formData = new FormData(postForm);
+                const data = {};
+                formData.forEach((value, key) => {
+                    data[key] = value;
+                });
+                
+                // Format deadline date
+                const deadlineDate = new Date(data.deadline);
+                const formattedDeadline = deadlineDate.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric', 
+                    year: 'numeric' 
+                });
+                
+                // Calculate days remaining
+                const today = new Date();
+                const timeDiff = deadlineDate.getTime() - today.getTime();
+                const daysRemaining = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                let deadlineText = `Closes ${formattedDeadline}`;
+                
+                if (daysRemaining < 0) {
+                    deadlineText = `Closed ${Math.abs(daysRemaining)} days ago`;
+                } else if (daysRemaining === 0) {
+                    deadlineText = `Closes today`;
+                } else if (daysRemaining === 1) {
+                    deadlineText = `Closes tomorrow`;
+                } else if (daysRemaining <= 7) {
+                    deadlineText = `Closes in ${daysRemaining} days`;
+                }
+                
+                // Determine badge color based on type
+                let badgeColor = 'gray';
+                let badgeTextColor = 'gray';
+                if (data.type === 'internship') {
+                    badgeColor = 'red';
+                    badgeTextColor = 'red';
+                } else if (data.type === 'part-time') {
+                    badgeColor = 'green';
+                    badgeTextColor = 'green';
+                } else if (data.type === 'volunteer') {
+                    badgeColor = 'blue';
+                    badgeTextColor = 'blue';
+                } else if (data.type === 'freelance') {
+                    badgeColor = 'purple';
+                    badgeTextColor = 'purple';
+                }
+                
+                // Generate skills HTML
+                const skillsHTML = skillsList.map(skill => `
+                    <span class="skill-tag inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">${skill}</span>
+                `).join('');
+                
+                // Generate preview HTML
+                previewContent.innerHTML = `
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-${badgeColor}-100 text-${badgeTextColor}-800 capitalize">
+                                ${data.type}
+                            </span>
+                            <div class="flex items-center">
+                                <span class="text-sm text-gray-500">${deadlineText}</span>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="text-xl font-bold text-gray-900">${data.title}</h3>
+                            <p class="mt-1 text-md text-gray-600">${data.company} • ${data.location}</p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="flex flex-wrap gap-2">
+                                ${skillsHTML}
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="text-lg font-medium text-gray-900">Compensation</h4>
+                            <p class="mt-1 text-gray-600">${data.compensation}</p>
+                            ${data.duration ? `<p class="mt-1 text-gray-600">Duration: ${data.duration}</p>` : ''}
+                            ${data.hours ? `<p class="mt-1 text-gray-600">Hours: ${data.hours}</p>` : ''}
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="text-lg font-medium text-gray-900">Description</h4>
+                            <div class="mt-2 text-gray-600 description-content">
+                                ${data.description_html}
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="text-lg font-medium text-gray-900">How to Apply</h4>
+                            <p class="mt-2 text-gray-600">
+                                ${data.application_method === 'platform' ? 
+                                    'Apply directly on SkillSwapICP' : 
+                                    `Apply via ${data.application_method}: ${data.application_details}`}
+                            </p>
+                            ${data.application_instructions ? `
+                                <div class="mt-2 p-3 bg-gray-50 rounded">
+                                    <h5 class="font-medium text-gray-700">Additional Instructions:</h5>
+                                    <p class="mt-1 text-gray-600">${data.application_instructions}</p>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+                
+                // Show modal
+                previewModal.classList.remove('hidden');
+            }
+            
+            // Close Preview Modal
+            closePreviewBtn.addEventListener('click', function() {
+                previewModal.classList.add('hidden');
+            });
+            
+            // Confirm Post from Preview
+            confirmPostBtn.addEventListener('click', function() {
+                previewModal.classList.add('hidden');
+                
+                // Submit form
+                const event = new Event('submit');
+                postForm.dispatchEvent(event);
+            });
+            
+            // Show Success Modal
+            function showSuccessModal() {
+                successModal.classList.remove('hidden');
+                previewModal.classList.add('hidden');
+            }
+            
+            // View Opportunity Button
+            viewOpportunityBtn.addEventListener('click', function() {
+                successModal.classList.add('hidden');
+                // In a real app, this would redirect to the newly created opportunity
+                alert('Redirecting to the newly created opportunity...');
+                // Reset form
+                postForm.reset();
+                skillsList = [];
+                updateSkillsDisplay();
+                descriptionEditor.innerHTML = '';
+            });
+            
+            // Post Another Button
+            postAnotherBtn.addEventListener('click', function() {
+                successModal.classList.add('hidden');
+                // Reset form
+                postForm.reset();
+                skillsList = [];
+                updateSkillsDisplay();
+                descriptionEditor.innerHTML = '';
+                
+                // Scroll to top
+                window.scrollTo(0, 0);
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gigs | SkillSwapICP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fecaca 0%, #fee2e2 50%, #fca5a5 100%);
+        }
+        .nav-link:hover {
+            color: #ef4444;
+        }
+        .tab-active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .gig-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .badge-active {
+            background-color: #dcfce7;
+            color: #166534;
+        }
+        .badge-expired {
+            background-color: #fee2e2;
+            color: #991b1b;
+        }
+        .badge-draft {
+            background-color: #e0e7ff;
+            color: #4338ca;
+        }
+        .loading-spinner {
+            border-top-color: #ef4444;
+            animation: spinner 1s linear infinite;
+        }
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+        .tab-button.active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Main Content -->
+    <div id="mygigs"class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="border-b border-gray-200 pb-4 mb-6">
+                <h1 class="text-2xl font-bold text-gray-900">My Gigs</h1>
+                <p class="mt-1 text-sm text-gray-500">Manage your posted opportunities and applications</p>
+            </div>
+            
+            <!-- Tabs -->
+            <div class="border-b border-gray-200">
+                <nav class="-mb-px flex space-x-8">
+                    <button id="activeTab" class="tab-button active whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                        Active
+                        <span id="activeCount" class="ml-2 bg-red-100 text-red-600 py-0.5 px-2 rounded-full text-xs">5</span>
+                    </button>
+                    <button id="expiredTab" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                        Expired
+                        <span id="expiredCount" class="ml-2 bg-gray-100 text-gray-600 py-0.5 px-2 rounded-full text-xs">3</span>
+                    </button>
+                    <button id="draftsTab" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 border-transparent font-medium text-sm text-gray-500 hover:text-gray-700 hover:border-gray-300">
+                        Drafts
+                        <span id="draftsCount" class="ml-2 bg-gray-100 text-gray-600 py-0.5 px-2 rounded-full text-xs">2</span>
+                    </button>
+                </nav>
+            </div>
+            
+            <!-- Search and Filter -->
+            <div class="mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div class="relative rounded-md shadow-sm w-full md:w-96">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <i class="fas fa-search text-gray-400"></i>
+                    </div>
+                    <input type="text" id="searchInput" class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm" placeholder="Search your gigs...">
+                </div>
+                <div class="flex items-center space-x-2">
+                    <label for="sortBy" class="text-sm font-medium text-gray-700">Sort by:</label>
+                    <select id="sortBy" class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm rounded-md">
+                        <option>Newest</option>
+                        <option>Oldest</option>
+                        <option>Most Applications</option>
+                        <option>Title (A-Z)</option>
+                        <option>Title (Z-A)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Gig List -->
+            <div id="gigList" class="mt-6 space-y-4">
+                <!-- Active Gigs (default view) -->
+                <div id="activeGigs">
+                    <!-- Gig Card 1 -->
+                    <div class="gig-card bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-200 ease-in-out">
+                        <div class="p-6">
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <div class="flex items-center">
+                                        <span class="badge-active inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                            Active
+                                        </span>
+                                        <span class="ml-2 text-xs text-gray-500">Posted 3 days ago</span>
+                                    </div>
+                                    <h3 class="mt-2 text-lg font-semibold text-gray-900">Frontend Developer Intern</h3>
+                                    <div class="mt-1 flex items-center text-sm text-gray-500">
+                                        <span>TechSolutions Inc.</span>
+                                        <span class="mx-1">•</span>
+                                        <span>Remote</span>
+                                        <span class="mx-1">•</span>
+                                        <span>$20/hr</span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-2">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">React</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">JavaScript</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">CSS</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-end">
+                                    <div class="text-right">
+                                        <p class="text-sm text-gray-500">Closes in <span class="font-medium text-gray-900">7 days</span></p>
+                                        <p class="text-sm text-gray-500"><span class="font-medium text-red-600">12</span> applications</p>
+                                    </div>
+                                    <div class="mt-4 flex space-x-2">
+                                        <button class="edit-btn inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            Edit
+                                        </button>
+                                        <button class="view-applicants-btn inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            View Applicants
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gig Card 2 -->
+                    <div class="gig-card bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-200 ease-in-out">
+                        <div class="p-6">
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <div class="flex items-center">
+                                        <span class="badge-active inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                            Active
+                                        </span>
+                                        <span class="ml-2 text-xs text-gray-500">Posted 1 week ago</span>
+                                    </div>
+                                    <h3 class="mt-2 text-lg font-semibold text-gray-900">UX/UI Designer</h3>
+                                    <div class="mt-1 flex items-center text-sm text-gray-500">
+                                        <span>CreativeMinds Agency</span>
+                                        <span class="mx-1">•</span>
+                                        <span>New York, NY</span>
+                                        <span class="mx-1">•</span>
+                                        <span>$25/hr</span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-2">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Figma</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Adobe XD</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">User Research</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-end">
+                                    <div class="text-right">
+                                        <p class="text-sm text-gray-500">Closes in <span class="font-medium text-gray-900">14 days</span></p>
+                                        <p class="text-sm text-gray-500"><span class="font-medium text-red-600">8</span> applications</p>
+                                    </div>
+                                    <div class="mt-4 flex space-x-2">
+                                        <button class="edit-btn inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            Edit
+                                        </button>
+                                        <button class="view-applicants-btn inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            View Applicants
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expired Gigs (hidden by default) -->
+                <div id="expiredGigs" class="hidden">
+                    <!-- Gig Card 3 -->
+                    <div class="gig-card bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-200 ease-in-out">
+                        <div class="p-6">
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <div class="flex items-center">
+                                        <span class="badge-expired inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                            Expired
+                                        </span>
+                                        <span class="ml-2 text-xs text-gray-500">Posted 2 months ago</span>
+                                    </div>
+                                    <h3 class="mt-2 text-lg font-semibold text-gray-900">Backend Developer</h3>
+                                    <div class="mt-1 flex items-center text-sm text-gray-500">
+                                        <span>DataSystems LLC</span>
+                                        <span class="mx-1">•</span>
+                                        <span>Remote</span>
+                                        <span class="mx-1">•</span>
+                                        <span>$35/hr</span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-2">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Node.js</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">MongoDB</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">AWS</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-end">
+                                    <div class="text-right">
+                                        <p class="text-sm text-gray-500">Closed <span class="font-medium text-gray-900">1 month ago</span></p>
+                                        <p class="text-sm text-gray-500"><span class="font-medium text-red-600">24</span> applications</p>
+                                    </div>
+                                    <div class="mt-4 flex space-x-2">
+                                        <button class="repost-btn inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            Repost
+                                        </button>
+                                        <button class="view-applicants-btn inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            View Applicants
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Draft Gigs (hidden by default) -->
+                <div id="draftGigs" class="hidden">
+                    <!-- Gig Card 4 -->
+                    <div class="gig-card bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-all duration-200 ease-in-out">
+                        <div class="p-6">
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <div class="flex items-center">
+                                        <span class="badge-draft inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium">
+                                            Draft
+                                        </span>
+                                        <span class="ml-2 text-xs text-gray-500">Saved 5 days ago</span>
+                                    </div>
+                                    <h3 class="mt-2 text-lg font-semibold text-gray-900">Content Writer (Part-time)</h3>
+                                    <div class="mt-1 flex items-center text-sm text-gray-500">
+                                        <span>MediaWorks</span>
+                                        <span class="mx-1">•</span>
+                                        <span>Remote</span>
+                                        <span class="mx-1">•</span>
+                                        <span>$15/hr</span>
+                                    </div>
+                                    <div class="mt-3 flex flex-wrap gap-2">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Writing</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">SEO</span>
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Blogging</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-end">
+                                    <div class="text-right">
+                                        <p class="text-sm text-gray-500">Not posted yet</p>
+                                    </div>
+                                    <div class="mt-4 flex space-x-2">
+                                        <button class="delete-btn inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            Delete
+                                        </button>
+                                        <button class="continue-btn inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                            Continue Editing
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Empty State -->
+            <div id="emptyState" class="hidden mt-12 text-center">
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-gray-100">
+                    <i class="fas fa-briefcase text-gray-400"></i>
+                </div>
+                <h3 class="mt-2 text-lg font-medium text-gray-900">No gigs found</h3>
+                <p class="mt-1 text-sm text-gray-500">Get started by posting a new opportunity.</p>
+                <div class="mt-6">
+                    <a href="post.html" class="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                        <i class="fas fa-plus -ml-1 mr-2 h-5 w-5"></i>
+                        New Gig
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="mt-8 flex items-center justify-between border-t border-gray-200 pt-4">
+                <div class="flex-1 flex justify-between sm:hidden">
+                    <a href="#" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                        Previous
+                    </a>
+                    <a href="#" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                        Next
+                    </a>
+                </div>
+                <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                    <div>
+                        <p class="text-sm text-gray-700">
+                            Showing
+                            <span class="font-medium">1</span>
+                            to
+                            <span class="font-medium">3</span>
+                            of
+                            <span class="font-medium">10</span>
+                            results
+                        </p>
+                    </div>
+                    <div>
+                        <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+                            <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                <span class="sr-only">Previous</span>
+                                <i class="fas fa-chevron-left h-5 w-5"></i>
+                            </a>
+                            <a href="#" aria-current="page" class="bg-red-50 border-red-500 text-red-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+                                1
+                            </a>
+                            <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+                                2
+                            </a>
+                            <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+                                3
+                            </a>
+                            <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                <span class="sr-only">Next</span>
+                                <i class="fas fa-chevron-right h-5 w-5"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="fixed inset-0 z-50 hidden overflow-y-auto">
+        <div class="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                            <i class="fas fa-exclamation text-red-600"></i>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Delete gig</h3>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-500">Are you sure you want to delete this draft? This action cannot be undone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" id="confirmDeleteBtn" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        Delete
+                    </button>
+                    <button type="button" id="cancelDeleteBtn" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // DOM Elements
+            const activeTab = document.getElementById('activeTab');
+            const expiredTab = document.getElementById('expiredTab');
+            const draftsTab = document.getElementById('draftsTab');
+            const activeGigs = document.getElementById('activeGigs');
+            const expiredGigs = document.getElementById('expiredGigs');
+            const draftGigs = document.getElementById('draftGigs');
+            const emptyState = document.getElementById('emptyState');
+            const searchInput = document.getElementById('searchInput');
+            const sortBy = document.getElementById('sortBy');
+            const deleteModal = document.getElementById('deleteModal');
+            const confirmDeleteBtn = document.getElementById('confirmDeleteBtn');
+            const cancelDeleteBtn = document.getElementById('cancelDeleteBtn');
+            
+            // Tab Switching
+            function switchTab(selectedTab) {
+                // Update active tab styling
+                activeTab.classList.remove('active');
+                expiredTab.classList.remove('active');
+                draftsTab.classList.remove('active');
+                selectedTab.classList.add('active');
+                
+                // Show/hide gig sections
+                if (selectedTab === activeTab) {
+                    activeGigs.classList.remove('hidden');
+                    expiredGigs.classList.add('hidden');
+                    draftGigs.classList.add('hidden');
+                } else if (selectedTab === expiredTab) {
+                    activeGigs.classList.add('hidden');
+                    expiredGigs.classList.remove('hidden');
+                    draftGigs.classList.add('hidden');
+                } else if (selectedTab === draftsTab) {
+                    activeGigs.classList.add('hidden');
+                    expiredGigs.classList.add('hidden');
+                    draftGigs.classList.remove('hidden');
+                }
+                
+                // Check if current tab has content
+                checkEmptyState();
+            }
+            
+            // Event listeners for tabs
+            activeTab.addEventListener('click', () => switchTab(activeTab));
+            expiredTab.addEventListener('click', () => switchTab(expiredTab));
+            draftsTab.addEventListener('click', () => switchTab(draftsTab));
+            
+            // Check if current tab has no gigs to show empty state
+            function checkEmptyState() {
+                let hasContent = false;
+                
+                if (!activeGigs.classList.contains('hidden')) {
+                    hasContent = activeGigs.querySelectorAll('.gig-card').length > 0;
+                } else if (!expiredGigs.classList.contains('hidden')) {
+                    hasContent = expiredGigs.querySelectorAll('.gig-card').length > 0;
+                } else if (!draftGigs.classList.contains('hidden')) {
+                    hasContent = draftGigs.querySelectorAll('.gig-card').length > 0;
+                }
+                
+                if (hasContent) {
+                    emptyState.classList.add('hidden');
+                } else {
+                    emptyState.classList.remove('hidden');
+                }
+            }
+            
+            // Search functionality
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const gigCards = document.querySelectorAll('.gig-card');
+                
+                gigCards.forEach(card => {
+                    const title = card.querySelector('h3').textContent.toLowerCase();
+                    const company = card.querySelector('.mt-1 > span:first-child').textContent.toLowerCase();
+                    const skills = Array.from(card.querySelectorAll('.mt-3 span')).map(span => span.textContent.toLowerCase());
+                    
+                    if (title.includes(searchTerm) || 
+                        company.includes(searchTerm) || 
+                        skills.some(skill => skill.includes(searchTerm))) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+                
+                checkEmptyState();
+            });
+            
+            // Sort functionality
+            sortBy.addEventListener('change', function() {
+                // In a real app, this would sort the gigs based on the selected option
+                console.log('Sorting by:', this.value);
+            });
+            
+            // Delete confirmation modal
+            document.querySelectorAll('.delete-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    deleteModal.classList.remove('hidden');
+                });
+            });
+            
+            // Confirm delete
+            confirmDeleteBtn.addEventListener('click', function() {
+                // In a real app, this would delete the gig from the database
+                deleteModal.classList.add('hidden');
+                
+                // Show loading state
+                const deleteBtn = document.querySelector('.delete-btn');
+                const originalText = deleteBtn.innerHTML;
+                deleteBtn.innerHTML = `
+                    <i class="fas fa-spinner fa-spin mr-2"></i>
+                    Deleting...
+                `;
+                deleteBtn.disabled = true;
+                
+                // Simulate API call
+                setTimeout(() => {
+                    // Remove the gig card
+                    const gigCard = deleteBtn.closest('.gig-card');
+                    gigCard.remove();
+                    
+                    // Update counts
+                    const draftsCount = document.getElementById('draftsCount');
+                    draftsCount.textContent = parseInt(draftsCount.textContent) - 1;
+                    
+                    // Check if we need to show empty state
+                    checkEmptyState();
+                    
+                    // Reset button (though it's removed now)
+                    deleteBtn.innerHTML = originalText;
+                    deleteBtn.disabled = false;
+                }, 1000);
+            });
+            
+            // Cancel delete
+            cancelDeleteBtn.addEventListener('click', function() {
+                deleteModal.classList.add('hidden');
+            });
+            
+            // Edit button functionality
+            document.querySelectorAll('.edit-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // In a real app, this would redirect to the edit page
+                    alert('Redirecting to edit page...');
+                });
+            });
+            
+            // View applicants button functionality
+            document.querySelectorAll('.view-applicants-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // In a real app, this would show the applicants for this gig
+                    alert('Showing applicants for this gig...');
+                });
+            });
+            
+            // Repost button functionality
+            document.querySelectorAll('.repost-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // In a real app, this would repost the expired gig
+                    alert('Reposting this gig...');
+                });
+            });
+            
+            // Continue editing button functionality
+            document.querySelectorAll('.continue-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // In a real app, this would continue editing the draft
+                    alert('Continuing to edit draft...');
+                });
+            });
+            
+            // Initialize the page
+            checkEmptyState();
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SkillSwapICP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #fecaca 0%, #fee2e2 50%, #fca5a5 100%);
+        }
+        .nav-link:hover {
+            color: #ef4444;
+        }
+        .tab-active {
+            border-bottom: 3px solid #ef4444;
+            color: #ef4444;
+            font-weight: 600;
+        }
+        .contact-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .loading-spinner {
+            border-top-color: #ef4444;
+            animation: spinner 1s linear infinite;
+        }
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+        .form-input:focus {
+            border-color: #ef4444;
+            box-shadow: 0 0 0 1px #ef4444;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Main Content -->
+    <div id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="border-b border-gray-200 pb-4 mb-6">
+                <h1 class="text-3xl font-bold text-gray-900">Contact Us</h1>
+                <p class="mt-1 text-lg text-gray-600">We'd love to hear from you! Reach out with any questions or feedback.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Form -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Send us a message</h2>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" required class="mt-1 form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" required class="mt-1 form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                            <select id="subject" name="subject" class="mt-1 form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500">
+                                <option value="general">General Inquiry</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="business">Business Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" required class="mt-1 form-input block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500"></textarea>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="subscribe" name="subscribe" type="checkbox" class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded">
+                            <label for="subscribe" class="ml-2 block text-sm text-gray-700">Subscribe to our newsletter</label>
+                        </div>
+                        <div>
+                            <button type="submit" id="submitBtn" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <div id="successMessage" class="hidden mt-4 p-4 bg-green-50 text-green-700 rounded-md">
+                        <i class="fas fa-check-circle mr-2"></i>
+                        <span>Your message has been sent successfully! We'll get back to you soon.</span>
+                    </div>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="space-y-6">
+                    <div class="contact-card bg-white p-6 rounded-lg shadow-sm border border-gray-200 transition-all duration-200 ease-in-out">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">Our Location</h3>
+                                <p class="mt-1 text-sm text-gray-500">123 Skill Street, Tech City, TC 12345</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card bg-white p-6 rounded-lg shadow-sm border border-gray-200 transition-all duration-200 ease-in-out">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">Call Us</h3>
+                                <p class="mt-1 text-sm text-gray-500">+1 (555) 123-4567</p>
+                                <p class="mt-1 text-sm text-gray-500">Mon-Fri: 9am-5pm EST</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card bg-white p-6 rounded-lg shadow-sm border border-gray-200 transition-all duration-200 ease-in-out">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">Email Us</h3>
+                                <p class="mt-1 text-sm text-gray-500">support@skillswapicp.com</p>
+                                <p class="mt-1 text-sm text-gray-500">We typically reply within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card bg-white p-6 rounded-lg shadow-sm border border-gray-200 transition-all duration-200 ease-in-out">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-gray-900">Live Chat</h3>
+                                <p class="mt-1 text-sm text-gray-500">Available 24/7 for immediate support</p>
+                                <button class="mt-2 inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                    Start Chat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- FAQ Section -->
+            <div class="mt-12 border-t border-gray-200 pt-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-gray-50 hover:bg-gray-100 focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">How do I post a gig on SkillSwapICP?</span>
+                            <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
+                        </button>
+                        <div class="faq-content hidden p-4 border-t border-gray-200">
+                            <p class="text-gray-600">To post a gig, click on the "Post" link in the navigation bar. Fill out the form with details about your opportunity, including title, description, skills required, and compensation. Once submitted, your gig will be reviewed and published within 24 hours.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-gray-50 hover:bg-gray-100 focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">What payment methods do you accept?</span>
+                            <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
+                        </button>
+                        <div class="faq-content hidden p-4 border-t border-gray-200">
+                            <p class="text-gray-600">We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers. All payments are processed securely through our payment gateway partners.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-gray-50 hover:bg-gray-100 focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">How can I edit or delete my posted gig?</span>
+                            <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
+                        </button>
+                        <div class="faq-content hidden p-4 border-t border-gray-200">
+                            <p class="text-gray-600">You can manage your gigs from the "My Gigs" section. Click on the "Edit" button to make changes or "Delete" to remove a gig. Note that once a gig has active applications, certain details cannot be changed.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-gray-50 hover:bg-gray-100 focus:outline-none">
+                            <span class="text-lg font-medium text-gray-900">How do I report an issue with the platform?</span>
+                            <i class="fas fa-chevron-down text-gray-500 transform transition-transform duration-200"></i>
+                        </button>
+                        <div class="faq-content hidden p-4 border-t border-gray-200">
+                            <p class="text-gray-600">If you encounter any technical issues or have concerns about another user, please contact our support team immediately through this contact form or via email at support@skillswapicp.com. Include as many details as possible about the issue.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+            <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+                <div class="px-5 py-2">
+                    <a href="index.html" class="text-base text-gray-500 hover:text-gray-900">Home</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="explore.html" class="text-base text-gray-500 hover:text-gray-900">Explore</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="post.html" class="text-base text-gray-500 hover:text-gray-900">Post</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="mygigs.html" class="text-base text-gray-500 hover:text-gray-900">My Gigs</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="#" class="text-base text-gray-500 hover:text-gray-900">Contact Us</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="#" class="text-base text-gray-500 hover:text-gray-900">Privacy Policy</a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="#" class="text-base text-gray-500 hover:text-gray-900">Terms of Service</a>
+                </div>
+            </nav>
+            <div class="mt-8 flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Facebook</span>
+                    <i class="fab fa-facebook-f h-6 w-6"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Instagram</span>
+                    <i class="fab fa-instagram h-6 w-6"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <i class="fab fa-twitter h-6 w-6"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">GitHub</span>
+                    <i class="fab fa-github h-6 w-6"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">LinkedIn</span>
+                    <i class="fab fa-linkedin-in h-6 w-6"></i>
+                </a>
+            </div>
+            <p class="mt-8 text-center text-base text-gray-400">
+                &copy; 2023 SkillSwapICP. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Contact Form Submission
+            const contactForm = document.getElementById('contactForm');
+            const submitBtn = document.getElementById('submitBtn');
+            const successMessage = document.getElementById('successMessage');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading state
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = `
+                    <i class="fas fa-spinner fa-spin mr-2"></i>
+                    Sending...
+                `;
+                submitBtn.disabled = true;
+                
+                // Simulate form submission
+                setTimeout(() => {
+                    // Reset form
+                    contactForm.reset();
+                    
+                    // Show success message
+                    successMessage.classList.remove('hidden');
+                    
+                    // Reset button
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successMessage.classList.add('hidden');
+                    }, 5000);
+                }, 1500);
+            });
+            
+            // FAQ Toggle Functionality
+            const faqToggles = document.querySelectorAll('.faq-toggle');
+            
+            faqToggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle content
+                    content.classList.toggle('hidden');
+                    
+                    // Toggle icon rotation
+                    if (content.classList.contains('hidden')) {
+                        icon.classList.remove('rotate-180');
+                    } else {
+                        icon.classList.add('rotate-180');
+                    }
+                });
+            });
+            
+            // Live Chat Button
+            const liveChatBtn = document.querySelector('.contact-card:last-child button');
+            liveChatBtn.addEventListener('click', function() {
+                alert('Connecting you to a live chat agent...');
+            });
+        });
+    </script>
+</body>
+</html>
